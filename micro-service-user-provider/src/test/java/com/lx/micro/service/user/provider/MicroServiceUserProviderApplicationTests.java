@@ -1,4 +1,4 @@
-package com.lx.microserviceuserprovider;
+package com.lx.micro.service.user.provider;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
