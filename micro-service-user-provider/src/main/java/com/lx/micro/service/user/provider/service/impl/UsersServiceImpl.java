@@ -7,7 +7,7 @@ import org.apache.dubbo.config.annotation.Service;
 /**
  * @author lanxing
  */
-@Service
+@Service(version = "${demo.service.version}")
 public class UsersServiceImpl implements UserService {
 
     @Override
@@ -15,6 +15,6 @@ public class UsersServiceImpl implements UserService {
         User user=new User();
         user.setName("lanxing");
         user.setAge(24);
-        return null;
+        return user;
     }
 }

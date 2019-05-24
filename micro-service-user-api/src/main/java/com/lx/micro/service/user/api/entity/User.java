@@ -1,9 +1,13 @@
 package com.lx.micro.service.user.api.entity;
 
+import org.omg.PortableServer.ServantRetentionPolicy;
+
+import java.io.Serializable;
+
 /**
  * @author lanxing
  */
-public class User {
+public class User implements Serializable {
     private String name;
     private int age;
 
