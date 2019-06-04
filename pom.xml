@@ -13,6 +13,7 @@
         <module>micro-service-user-api</module>
         <module>micro-service-user-provider</module>
         <module>micro-service-user-web</module>
+        <module>micro-service-usr-sentinel</module>
     </modules>
 
     <properties>
