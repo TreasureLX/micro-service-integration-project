@@ -35,6 +35,12 @@
             <version>0.9.0.RELEASE</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>
